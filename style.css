@@ -3,4 +3,41 @@
     margin: 0;
     padding: 0;
     font-family: "Fredoka";
+    text-align: center;
+}
+.principale{
+    width: 80%;
+    margin: 50px auto 0px;
+}
+.principale h1 , p{
+    margin: 30px auto;
+}
+.principale h1{
+    color: #E53170;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container h2, h3{
+    margin: 10px auto;
+    color: aliceblue;
+}
+.mail{
+    color: aqua;
+}
+.flex-card{
+    display: flex;
+    background-color: #0F0E17;
+    margin: 20px;
+    width: 30%;  
+}
+.flex-item-text{
+    text-align: center;
+    align-items: stretch;
+}
+.flex-card img{
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    width: 125px;
 }
